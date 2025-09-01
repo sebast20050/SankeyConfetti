@@ -11,6 +11,7 @@ flow types.
 
 Dedicated to everyone who needs to communicate insights or knowledge 
 from data to audiences who may find Sankey diagrams difficult to understand.
+
 ------------------------------------------------------------------------
 
 ## Features
