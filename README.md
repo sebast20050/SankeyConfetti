@@ -13,7 +13,7 @@ Dedicated to everyone who needs to communicate insights or knowledge
 from data to audiences who may find Sankey diagrams difficult to understand.
 ------------------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
 -   **Animated Sankey Diagram** using D3.js.\
 -   **Particles represent each row** in `data.csv`.\
@@ -24,7 +24,7 @@ from data to audiences who may find Sankey diagrams difficult to understand.
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+## Project Structure
 
     .
     ├── index5.html          # Main HTML container (canvas + svg + script loaders)
@@ -35,7 +35,7 @@ from data to audiences who may find Sankey diagrams difficult to understand.
 
 ------------------------------------------------------------------------
 
-## 📊 Data Format
+## Data Format
 
 ### `data.csv`
 
@@ -77,7 +77,8 @@ Each row represents a flow segment. Example:
     cd sankey-particles
     ```
 
-2.  Open `index5.html` in your browser (no server required).
+2.  Open `index5.html` in your browser (web server is required)
+On mac, super easy: on the folder, in bash: npx http-server
 
 3.  The Sankey diagram will render automatically with animated
     particles.
@@ -94,11 +95,12 @@ Each row represents a flow segment. Example:
 
 ------------------------------------------------------------------------
 
-## 🛠️ Built With
+##  Built With
 
 -   [D3.js v3](https://d3js.org/)\
 -   Sankey layout (`d3.sankey.js`)\
 -   HTML5 Canvas + SVG overlay
+-   Copilot because im learning JavaScript 
 
 ------------------------------------------------------------------------
 
